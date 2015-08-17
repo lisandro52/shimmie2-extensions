@@ -14,7 +14,7 @@ class UsersOnly extends Extension {
 		global $config, $page, $user;
 		
 		if(!$user->is_logged_in() && 
-				(!$event->page_matches("user_admin/create") || !$event->page_matches("user_admin/login"))) {
+				(!$event->page_matches("user_admin/create") && !$event->page_matches("user_admin/login"))) {
 			$page->set_mode("redirect");
 			$page->set_redirect(make_link("user_admin/login"));
 		}
