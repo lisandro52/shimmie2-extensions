@@ -1,6 +1,18 @@
 # shimmie2-extensions
 A little collection of extensions for the [shimmie2 project](https://github.com/shish/shimmie2)
 
+Description
+-----------
+
+#### Mass Remover
+
+Based off the 'Mass Tagger' extension that is currently part of the shimmie2 extensions package, this plugin lets you select pictures on-the-fly from the current page by clicking them, to be removed later on by confirming the selection.
+
+
+#### Users Only
+
+This little extension only allows registered users to view __any__ page from the booru, if enabled. The only two pages left out from the prohibition are the registration page (which can alse be disabled by yet another extension) and the login page.
+
 **Quick installation process**
 
 Once you are inside your shimmie2's root folder, run the following commands:
