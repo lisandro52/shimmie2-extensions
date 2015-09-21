@@ -16,5 +16,5 @@ You can also clone the repo as you normally would, and then move the two folders
 
 ---
 
-Note that probably your shimmie2 folder will be owned by `www-data` (or the user your web server uses) so you will need to execute the git commands with `root` privileges. Another option would be to log in as your web server's user to execute this commands.
+Note that probably your shimmie2 folder will be owned by `www-data` (or the user your web server uses) so you will need to execute the git commands with `root` privileges. Another option would be to log in as your web server's user to execute these commands.
 If you choose to execute them with `root` privileges, remember to change the ownership of the downloaded folders to your web server's user, and the file permissions to `755`.
